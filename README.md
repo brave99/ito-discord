@@ -11,7 +11,7 @@ Now text message from BOT is all in Japanese, but English version is (maybe) com
 This software is released under the MIT License, see LICENSE.
 
 
-Discordでito(https://arclightgames.jp/product/ito/)をプレイするためのBOTです。  
+Discordでito(https://arclightgames.jp/product/ito/ )をプレイするためのBOTです。  
 現在、言語は日本語のみですが、英語版も作れるかもです。  
 動作環境は  
 Python>=3.5  
