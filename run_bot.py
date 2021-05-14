@@ -100,8 +100,9 @@ async def on_message(message):
 
                 ### deal number ###
                 await CHANNEL.send("全員の準備が完了しました。DMでカードを配布します。")
-                deal,ans = dealNumber(num_player, cards)
+                deal, ans = dealNumber(num_player, cards)
                 for i, player in enumerate(players):
+                    player.number = []
                     player.number = deal[i]
                     player.number_hard = player.number[:]
 
